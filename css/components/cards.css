@@ -1,0 +1,47 @@
+.card { 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+.card-title {
+  color: #413d4b;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+}
+.card-description { 
+  color: rgba(51,51,51,0.75);
+  letter-spacing: 0.7px;
+}
+.section-expertise .card  .icon { 
+  background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+.team-cards .card-content{ 
+  width: 100%;
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  border-top: none;
+  padding: 20px 0 25px 0;
+}
+.team-cards .card-name {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-bottom: 8px;
+  }
+.team-cards .card-job {
+  color: rgba(250, 250, 250, 0.7);
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0;
+}

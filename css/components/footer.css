@@ -1,0 +1,73 @@
+.footer {
+  padding: 70px 0;
+  position: relative;
+  min-height: 400px;
+}
+.footer-inner { 
+  margin-bottom: 50px;
+}
+.footer-title {
+  padding: 15px 0;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+.footer-address {
+  display: flex;
+  align-items: baseline;
+}
+.address { 
+  margin: 0;
+  margin-bottom: 15px;
+  line-height: 26px;
+}.footer-description { 
+  color: #ffffff;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+}
+.footer-address .icon, .footer-phone .icon{ 
+  font-size: 14px;
+  margin-right: 16px;
+}
+.footer-btn  { 
+  font-size: 20px;  
+}
+.social-link { 
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-link:not(:last-child) { 
+  margin-right: 6px;
+}
+.socials .icon { 
+  font-size: 16px;
+}
+
+
+.social-link:hover,  .footer .speciall-links a:hover, .footer-phone a:hover{
+  text-decoration: none;
+  border-color: #00e0d0;
+  color: #00e0d0;
+}
+
+.footer .speciall-content {
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .speciall-links li { 
+  margin-right: 35px;
+}
+.footer .speciall-links a, .footer .copyright{ 
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.35px;
+}

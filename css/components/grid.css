@@ -1,0 +1,55 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-header { 
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-story {
+  display: grid;
+  grid-template-columns: minmax(200px, 315px) minmax(400px, 640px);
+  column-gap: 100px;
+  justify-items: left; 
+
+}
+.grid-story .grid-item:first-of-type { 
+  justify-self: center;
+}
+
+.grid-cards {
+  margin: -20px -33px;
+}
+.grid-cards-item {
+  padding: 20px 33px;
+}
+.grid-team {
+  margin: -10px;
+}
+.grid-team-item {
+  padding: 10px;
+}
+.grid-works { 
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-contacts {
+  margin: 0 -50px;
+}
+.grid-contacts .grid-item {
+  padding: 0 50px;
+}
+.grid-brands { 
+  margin: 0 -40px;
+}
+.grid-brands .grid-item { 
+  padding: 0 40px;
+}
+
+.grid-footer {
+  margin: 0 -30px;
+}
+.grid-footer > .grid-item {
+  padding: 0 30px;
+}
