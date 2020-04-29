@@ -1,5 +1,11 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .footer-form { 
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .footer-form .footer-input  {
@@ -9,6 +15,18 @@
   margin-right: 5px;
   background-color: transparent;
   outline: none;
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer-form .footer-input::-webkit-input-placeholder { 
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer-form .footer-input::-moz-placeholder { 
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer-form .footer-input:-ms-input-placeholder { 
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer-form .footer-input::-ms-input-placeholder { 
   color: rgba(255, 255, 255, 0.75);
 }
 .footer-form .footer-input::placeholder { 
@@ -55,6 +73,26 @@
   background-color: #f8f8f8;
   color: #999;
   border-color: #999;
+}
+
+.input::-webkit-input-placeholder, .textarea::-webkit-input-placeholder {
+  color: rgba(65, 61, 75, 0.5);
+  letter-spacing: 0.7px;
+}
+
+.input::-moz-placeholder, .textarea::-moz-placeholder {
+  color: rgba(65, 61, 75, 0.5);
+  letter-spacing: 0.7px;
+}
+
+.input:-ms-input-placeholder, .textarea:-ms-input-placeholder {
+  color: rgba(65, 61, 75, 0.5);
+  letter-spacing: 0.7px;
+}
+
+.input::-ms-input-placeholder, .textarea::-ms-input-placeholder {
+  color: rgba(65, 61, 75, 0.5);
+  letter-spacing: 0.7px;
 }
 
 .input::placeholder,
@@ -108,35 +146,3 @@
   display: block;
 }
 
-/* .form-icon {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 40px;
-  color: #999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.form-icon:hover {
-  color: #666;
-}
-
-.form-icon:not(a):not(button):not(input) {
-  pointer-events: none;
-}
-
-.form-icon-flip {
-  right: 0;
-  left: auto;
-}
-
-.form-icon:not(.form-icon-flip) ~ .input {
-  padding-left: 40px !important;
-}
-.form-icon-flip ~ .input {
-  padding-right: 40px !important;
-} */

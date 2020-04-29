@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .section { 
   position: relative;
   padding: 70px 0;
@@ -12,7 +14,8 @@
 }
 .section-background > img { 
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section-overlay { 
   position: absolute;
@@ -21,12 +24,19 @@
   bottom: 0;
   left: 0;
   right: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#09052f), to(#311d5e));
+  background-image: -o-linear-gradient(left, #09052f 0%, #311d5e 100%);
   background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
   opacity: 0.75;
 }
 .section-foreground {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 h2.section-title { 
   margin-bottom: 16px;
@@ -55,10 +65,18 @@ h2.section-title {
 }
 .section-hero .section-body { 
   padding: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-hero .section-content { 
   width: 770px;
@@ -98,11 +116,17 @@ h2.section-title {
 
 .section-video { 
   min-height: 550px;  
+  display: -webkit-box;  
+  display: -ms-flexbox;  
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-video .section-foreground {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section-video .section-description { 
   font-size: 16px;
@@ -167,8 +191,10 @@ h2.section-title {
 }
 .section-works .section-images .images-media > img { 
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .section-works .section-title{ 
   color: #413d4b;
@@ -194,9 +220,16 @@ h2.section-title {
 }
 
 .section-review .section-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 775px;
   margin: 0 auto;
 }
@@ -235,13 +268,18 @@ h2.section-title {
   margin-bottom: 35px;
 }
 .section-contacts .brand-media { 
+  display: -webkit-box; 
+  display: -ms-flexbox; 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 50px;
 }
 .section-contacts .brand-media > img { 
   width: auto;
 }
-
 

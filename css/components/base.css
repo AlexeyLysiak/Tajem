@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html {
@@ -75,11 +76,6 @@ h6 {
 * + h6 {
     margin-top: 0.67em;
 }
-/* hr {
-    border-top: 1px solid #191c20;
-    border-bottom: 1px solid #40474f;
-    margin: 10px 0 15px;
-} */
 .span-letter {
     display: inline-block;
 }
